@@ -1,0 +1,9 @@
+body {
+    font-family: "Arial", "sans-serif";
+}
+
+div.wrapper {
+    width: 900px;
+    margin: auto;
+    background-color: #fcebeb;
+}
