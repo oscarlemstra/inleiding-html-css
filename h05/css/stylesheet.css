@@ -7,3 +7,25 @@ div.wrapper {
     margin: auto;
     background-color: #fcebeb;
 }
+
+header {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+header img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header a {
+    margin-left: 20px;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+main img {
+    margin-left: 2%;
+}
