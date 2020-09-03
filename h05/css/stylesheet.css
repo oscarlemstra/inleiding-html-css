@@ -1,31 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Arial", "sans-serif";
+    line-height: 24px;
 }
 
-div.wrapper {
-    width: 900px;
+div#wrapper, footer {
+    background-color: #ffeaea;
+    width: 1000px;
+    padding: 20px;
     margin: auto;
-    background-color: #fcebeb;
 }
 
-header {
-    height: 100px;
-    margin-bottom: 30px;
-}
-
-header img {
-    margin-left: 20px;
+nav {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-header a {
-    margin-left: 20px;
+nav a {
+    margin-right: 20px;
 }
 
-header nav {
-    margin-top: 15px;
+section.appel, section.plaatjes {
+    width: 50%;
+    float: left;
 }
 
-main img {
-    margin-left: 2%;
+section.plaatjes {
+    text-align: right;
+}
+
+img.appel {
+    width: 497px;
+}
+
+img.plaatje {
+    width: 447px;
+    margin-bottom: 10px;
+}
+
+img.article {
+    width: 303px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 0px;
+}
+
+footer {
+    background-color: #a6a6a6;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
