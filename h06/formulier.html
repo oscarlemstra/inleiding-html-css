@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Burton Education</title>
+
+        <style>
+            form {
+                font-family: "Arial", "sans-serif";
+                border: solid black 1px;
+                width: 800px;
+                margin: auto;
+            }
+
+            #form-group1 {
+                border: solid red 1px;
+                width: 55%;
+            }
+            #form-group2 {
+                border: solid orange 1px;
+                width: 45%;
+            }
+
+            form div.form-group, h2 {
+                margin: 12px;
+            }
+
+            input.text {
+                float: right;
+                width: 250px;
+            }
+
+            input.radioI, label.radioL {
+                float: right;
+            }
+
+            label.radioL {
+                margin-right: 72px;
+            }
+
+            select {
+                float: right;
+                width: 100px;
+                margin-right: 157px;
+            }
+
+            input.date {
+                float: right;
+                margin-right: 112px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="http://www.savatarian.com/html5/form.php" method="post">
+            <h2>Formulier</h2>
+            <div id="form-group1"><!-- form-group1 -->
+                <div class="form-group">
+                    <label for="voornaam">Voornaam</label>
+                    <input class="text" type="text" id="voornaam" name="voornaam" required>
+                </div>
+                <div class="form-group">
+                    <label for="tussenvoegsel">Tussenvoegsel</label>
+                    <input class="text" type="text" id="tussenvoegsel" name="tussenvoegsel">
+                </div>
+                <div class="form-group">
+                    <label for="achternaam">Achternaam</label>
+                    <input class="text" type="text" id="achternaam" name="achternaam" required>
+                </div>
+                <div class="form-group">
+                    <label>Geslacht</label>
+                    <label class="radioL" for="vrouw">Vrouw</label>
+                    <input class="radioI" type="radio" id="vrouw" name="geslacht" value="vrouw" required>
+                    <label class="radioL" for="man">Man</label>
+                    <input class="radioI" type="radio" id="man" name="geslacht" value="man" required>
+                </div>
+                <div class="form-group">
+                    <label for="kleur-ogen">Kleur ogen</label>
+                    <select for="kleur-ogen" id="kleur-ogen">
+                        <option value="nvt">n.v.t.</option>
+                        <option value="bruin">Bruin</option>
+                        <option value="blauw">Blauw</option>
+                        <option value="groen">Groen</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="geboortedatum">Geboortedatum</label>
+                    <input class="date" type="date" id="geboortedatum" name="geboortedatum" required>
+                </div>
+            </div><!-- form-group1 -->
+            <div id="form-group2"><!-- form-group2 -->
+                <div class="form-group">
+                    niksniks
+                </div>
+            </div><!-- form-group2 -->
+        </form>
+    </body>
+</html>
