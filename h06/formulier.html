@@ -7,18 +7,26 @@
         <style>
             form {
                 font-family: "Arial", "sans-serif";
-                border: solid black 1px;
+                /*border: solid black 1px;*/
                 width: 800px;
                 margin: auto;
+                margin-top: 35px;
             }
 
             #form-group1 {
-                border: solid red 1px;
+                /*border: solid red 1px;*/
                 width: 55%;
+                float: left;
             }
             #form-group2 {
-                border: solid orange 1px;
+                /*border: solid orange 1px;*/
                 width: 45%;
+                float: left;
+            }
+            #form-group3, #form-group4 {
+                /*border: solid orange 1px;*/
+                width: 100%;
+                float: left;
             }
 
             form div.form-group, h2 {
@@ -48,6 +56,22 @@
                 float: right;
                 margin-right: 112px;
             }
+
+            input.checkbox {
+                margin-left: 97px;
+            }
+
+            label.textarea {
+                float: left;
+                margin-right: 68px;
+            }
+
+            input.knop {
+                float: right;
+                width: 85px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         </style>
     </head>
 
@@ -76,7 +100,7 @@
                 </div>
                 <div class="form-group">
                     <label for="kleur-ogen">Kleur ogen</label>
-                    <select for="kleur-ogen" id="kleur-ogen">
+                    <select id="kleur-ogen" name="kleur-ogen">
                         <option value="nvt">n.v.t.</option>
                         <option value="bruin">Bruin</option>
                         <option value="blauw">Blauw</option>
@@ -90,9 +114,25 @@
             </div><!-- form-group1 -->
             <div id="form-group2"><!-- form-group2 -->
                 <div class="form-group">
-                    niksniks
+                    <label for="sperciebonen">Lekker eten:</label>
+                    <input type="checkbox" id="sperciebonen" name="sperciebonen">
+                    <label for="sperciebonen">Sperciebonen</label><br>
+                    <input class="checkbox" type="checkbox" id="aardappelen" name="aardappelen">
+                    <label for="aardappelen">Aardappelen</label><br>
+                    <input class="checkbox" type="checkbox" id="hamburger" name="hamburger">
+                    <label for="hamburger">Hamburger</label>
                 </div>
             </div><!-- form-group2 -->
+            <div id="form-group3"><!-- form-group3 -->
+                <div class="form-group">
+                    <label class="textarea" for="omschrijving">Omschrijving</label>
+                    <textarea id="omschrijving" name="omschrijving" cols="45" rows="8"></textarea>
+                </div>
+            </div><!-- form-group3 -->
+            <div id="form-group4"><!-- form-group4 -->
+                <input class="knop" type="submit" name="verzenden" value="Ok">
+                <input class="knop" type="button" onclick="" value="Annuleer">
+            </div><!-- form-group4 -->
         </form>
     </body>
 </html>
