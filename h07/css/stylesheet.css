@@ -1,14 +1,51 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-family: "Arial", "sans-serif";
+    background-color: rgb(250, 241, 234);
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-#wrapper {
-    background-color: pink;
-    width: 1000px;
+header {
+    background-color: rgb(192, 240, 223);
+    text-align: center;
+}
+
+img#logo {
+    width: 320px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: rgb(128, 128, 128);
+    border-top: solid white 1px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h3 {
+    color: rgb(220, 106, 94);
+    font-weight: 600;
+}
+
+section, footer {
     padding: 20px;
-    margin: auto;
+}
+
+footer {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+footer h3 {
+    color: white;
 }
