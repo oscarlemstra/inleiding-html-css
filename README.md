@@ -10,7 +10,7 @@ Link naar de [website](https://romantic-chandrasekhar-439f1a.netlify.app/).
 
 ## Wat ik geleerd heb
 - HTML tags
-- CSS
 - Tabellen
+- CSS
 - Forms en fonts
 - Responsive website
